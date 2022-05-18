@@ -27,7 +27,7 @@ TECHNOLOGIES USED :
 python manage.py runserver
 ```
 - A prompt will be generated stating "Starting development server at http://127.0.0.1:8000/" (Depends on your localhost)<br>
-- Paste the link to any web browser and append "wiki_Freq" (Example : http://127.0.0.1:8000/wiki_Freq)
+- Paste the link to any web browser and append "imageupload" (Example : http://127.0.0.1:8000/imageupload)
 
 ## Screenshots
 ![](images/Screenshot%20(147).png)
