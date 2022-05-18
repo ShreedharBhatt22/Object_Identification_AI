@@ -30,11 +30,10 @@ python manage.py runserver
 - Paste the link to any web browser and append "imageupload" (Example : http://127.0.0.1:8000/imageupload)
 
 ## Screenshots
-![](images/Screenshot%20(147).png)
-![](images/Screenshot%20(148).png)
-### <br>Including stop words <br><br>
-![](images/Screenshot%20(149).png)
-![](images/Screenshot%20(150).png)
+![](images/ss2.png)
+![](images/ss3).png)
+![](images/ss1).png)
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
