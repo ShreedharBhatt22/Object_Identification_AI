@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Results</title>
+        <style>
+
+            body{
+           
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  height: inherit;
+  /* display: flex; */
+  justify-content: center;
+  font-size: larger;
+  font-weight: bolder;
+  /* align-items: center; */
+  font-family: 'Manrope', sans-serif;
+}
+
+.gradient {
+  background: linear-gradient(315deg, rgba(236, 160, 255, 0.7), rgba(170, 178, 255, 0.7), rgba(132, 255, 201, 0.7));
+  background-size: 250% 250%;
+  animation: gradientAnim 10s ease infinite;
+}
+
+@keyframes gradientAnim {
+    0% {background-position:0% 50%}
+    50% {background-position:100% 50%}
+    100% {background-position:0% 50%}
+}
+</style>
+        </head>
+        <body>
+            <main class="gradient">
+                <br>
+                <h1>TOP THREE PREDICTIONS</h1>
+                <br>
+                {% for r,p in res %}
+                {{r}} {{p}}%<br>
+                {% endfor %}    
+              </main>
+           
+           
+        </body>
+    </html>
