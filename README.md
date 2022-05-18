@@ -1,13 +1,13 @@
-# wiki_text_analysis
+# Object identification AI
 
-A Django based web application to determine the count of each word of a wikipedia page and display top ten frequent words.<br>
+A Django based web application to predict the object present in an image.<br>
 
 ## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the following:
 
 ```bash
 pip install django
-pip install bs4
+pip install tensorflow
 pip install numpy
 pip install re
 ```
@@ -15,9 +15,8 @@ pip install re
 TECHNOLOGIES USED :
 
 1) On the frontend side technologies used are HTML, CSS (which is stored in templates folder)<br>
-2) For web scrapping technology used is bs4 (BeautifulSoup)<br>
-3) To validate the input phython package used is re<br>
-4) To operate on list/array numpy is used <br>
+2) Resnet based model is used to predict objects.<br>
+3) To operate on list/array numpy is used. <br>
 
 ## Steps to execute project
 - Download zip file or clone the project.<br>
